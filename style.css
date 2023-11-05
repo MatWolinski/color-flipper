@@ -1,0 +1,55 @@
+body {
+  background-color: red;
+}
+.header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding: none;
+}
+.header ul {
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+}
+li {
+  list-style: none;
+}
+.top-btn {
+  border: none;
+  background-color: white;
+  font-size: 30px;
+}
+.selected {
+  color: blue;
+}
+.clicked {
+  box-shadow: 0 0 25px blue;
+  opacity: 50%;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20vw;
+  align-items: center;
+  justify-content: center;
+}
+.display-box {
+  font-size: 80px;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: aliceblue;
+}
+.main button {
+  border: solid blue 1px;
+  margin-top: 3%;
+  font-size: 40px;
+}
+b {
+  color: blue;
+}
